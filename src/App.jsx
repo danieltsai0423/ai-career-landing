@@ -56,7 +56,7 @@ const App = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col items-center text-center overflow-hidden">
+      <section className="relative pt-24 pb-16 md:pt-48 md:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col items-center text-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-[#2997ff]/10 to-transparent opacity-50 blur-3xl -z-10 rounded-full w-[800px] h-[800px] mx-auto top-[-200px]" />
         
         <div className="inline-flex items-center space-x-2 bg-[#1d1d1f] border border-[#424245] px-3 py-1 rounded-full text-[#86868b] text-xs font-medium mb-8">
@@ -68,7 +68,7 @@ const App = () => {
           2026 Q1 台灣 AI 就業市場數據包
         </h2>
         
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6 max-w-5xl leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6 max-w-5xl leading-tight">
           解碼 AI 職涯。<br />
           <span className="bg-gradient-to-r from-[#f5f5f7] via-[#86868b] to-[#424245] bg-clip-text text-transparent">
             看見你的真實身價。
@@ -93,16 +93,16 @@ const App = () => {
       </section>
 
       {/* Bento Grid Stats */}
-      <section id="preview" className="py-24 bg-[#000000] border-t border-[#1d1d1f]">
+      <section id="preview" className="py-16 md:py-24 bg-[#000000] border-t border-[#1d1d1f]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">數據說話。一目了然。</h2>
+          <div className="mb-10 md:mb-16 text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight mb-4">數據說話。一目了然。</h2>
             <p className="text-[#86868b] text-xl">超過 1,500 筆職缺的真實輪廓，揭示市場最真實的供需樣貌。</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 auto-rows-auto md:auto-rows-[250px]">
             {/* Stat Card 1 */}
-            <div className="bg-[#1d1d1f] rounded-3xl p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors md:col-span-2 overflow-hidden relative group">
+            <div className="bg-[#1d1d1f] rounded-3xl p-6 md:p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors md:col-span-2 overflow-hidden relative group">
               <div className="z-10">
                 <p className="text-[#86868b] text-sm font-semibold uppercase tracking-wider mb-2">職能分佈與中位數薪資</p>
                 <h3 className="text-4xl font-bold tracking-tight mb-2">產品經理薪資<br/><span className="text-[#2997ff]">逆勢領先技術職</span></h3>
@@ -114,7 +114,7 @@ const App = () => {
             </div>
 
             {/* Stat Card 2 */}
-            <div className="bg-[#1d1d1f] rounded-3xl p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors relative overflow-hidden">
+            <div className="bg-[#1d1d1f] rounded-3xl p-6 md:p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors relative overflow-hidden">
               <div>
                 <p className="text-[#86868b] text-sm font-semibold uppercase tracking-wider mb-2">最高薪產業</p>
                 <h3 className="text-4xl font-bold tracking-tight text-[#f5f5f7] mb-2">$58.7k</h3>
@@ -133,7 +133,7 @@ const App = () => {
             </div>
 
             {/* Stat Card 3 */}
-            <div className="bg-[#1d1d1f] rounded-3xl p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors">
+            <div className="bg-[#1d1d1f] rounded-3xl p-6 md:p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors">
               <div>
                 <p className="text-[#86868b] text-sm font-semibold uppercase tracking-wider mb-2">整體職位機會</p>
                 <h3 className="text-5xl font-bold tracking-tight mb-2">1,538<span className="text-2xl text-[#86868b] font-medium ml-2">筆</span></h3>
@@ -146,7 +146,7 @@ const App = () => {
             </div>
 
             {/* Stat Card 4 */}
-            <div className="bg-[#1d1d1f] rounded-3xl p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors md:col-span-2 relative overflow-hidden group">
+            <div className="bg-[#1d1d1f] rounded-3xl p-6 md:p-8 border border-[#424245] flex flex-col justify-between hover:border-[#86868b] transition-colors md:col-span-2 relative overflow-hidden group">
               <div className="z-10">
                 <p className="text-[#86868b] text-sm font-semibold uppercase tracking-wider mb-2">隱藏福利解析 (v3 更新)</p>
                 <h3 className="text-3xl font-bold tracking-tight mb-4">不同職能的「隱藏紅利」大不同</h3>
@@ -171,11 +171,11 @@ const App = () => {
       </section>
 
       {/* Skills Radar Section */}
-      <section id="skills" className="py-24 bg-[#1d1d1f] border-t border-[#424245]">
+      <section id="skills" className="py-16 md:py-24 bg-[#1d1d1f] border-t border-[#424245]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row gap-16 items-center">
+          <div className="flex flex-col md:flex-row gap-10 md:gap-16 items-center">
             <div className="md:w-1/2">
-              <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">核心技能雷達。</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight mb-6">核心技能雷達。</h2>
               <p className="text-[#86868b] text-xl mb-8 leading-relaxed">
                 透過 NLP 技術深度解析 1,278 筆完整 JD。<br />
                 揭露超越 Python 的「隱藏王者」技能，<br />以及 2026 企業最渴望的落地方案。
@@ -207,7 +207,7 @@ const App = () => {
             </div>
 
             <div className="md:w-1/2 w-full">
-              <div className="bg-[#000000] rounded-3xl p-8 border border-[#424245]">
+              <div className="bg-[#000000] rounded-3xl p-6 md:p-8 border border-[#424245]">
                 <h4 className="text-xs font-semibold uppercase tracking-wider text-[#86868b] mb-6">Top Tech Stack Demand</h4>
                 <div className="space-y-5">
                   <SkillBar name="Python" count="348" percentage={100} color="bg-[#f5f5f7]" tag="絕對基底" />
@@ -224,9 +224,9 @@ const App = () => {
       </section>
 
       {/* Career Roadmap */}
-      <section id="roadmap" className="py-24 bg-[#000000]">
+      <section id="roadmap" className="py-16 md:py-24 bg-[#000000]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">5 大 AI 職涯路線圖。</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight mb-4">5 大 AI 職涯路線圖。</h2>
           <p className="text-[#86868b] text-xl">找到你的精確定位，制定最有效的轉職與升級策略。</p>
         </div>
 
@@ -264,7 +264,7 @@ const App = () => {
               app="將模型變產品，中小企業最缺"
             />
             
-            <div className="bg-gradient-to-br from-[#1d1d1f] to-[#2d2d2f] rounded-3xl p-8 border border-[#424245] flex flex-col justify-center items-center text-center">
+            <div className="bg-gradient-to-br from-[#1d1d1f] to-[#2d2d2f] rounded-3xl p-6 md:p-8 border border-[#424245] flex flex-col justify-center items-center text-center">
               <Map className="w-10 h-10 text-[#f5f5f7] mb-4" />
               <h3 className="text-xl font-bold mb-2">專屬你的轉職指南</h3>
               <p className="text-[#86868b] text-sm mb-6">包含 15 項自我評估工具與 3 個月衝刺計畫，精準導航。</p>
@@ -277,20 +277,20 @@ const App = () => {
       </section>
 
       {/* Pricing / CTA Section */}
-      <section className="py-32 bg-[#1d1d1f] border-t border-[#424245] relative overflow-hidden">
+      <section className="py-20 md:py-32 bg-[#1d1d1f] border-t border-[#424245] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-[#2997ff]/5 to-transparent pointer-events-none" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="inline-block bg-[#000000] border border-[#424245] px-4 py-2 rounded-full mb-8">
             <span className="text-sm font-medium tracking-wide">完整版 Notion 數位資產包</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-[#f5f5f7]">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-6 text-[#f5f5f7]">
             掌握全局，<br />才能做出完美的職涯決策。
           </h2>
           <p className="text-xl text-[#86868b] mb-12 max-w-2xl mx-auto">
             一鍵複製至你的 Notion 工作區。包含 8 大章節、互動式技能檢核表、以及隨時更新的市場動態。投資你的 AI 職涯，從掌握真實數據開始。
           </p>
           
-          <div className="bg-[#000000] border border-[#424245] rounded-3xl p-8 md:p-12 shadow-2xl flex flex-col md:flex-row items-center justify-between text-left max-w-3xl mx-auto mb-12">
+          <div className="bg-[#000000] border border-[#424245] rounded-3xl p-6 md:p-12 shadow-2xl flex flex-col md:flex-row items-start md:items-center justify-between text-left max-w-3xl gap-8 md:gap-0 mx-auto mb-12">
             <div className="mb-8 md:mb-0">
               <h3 className="text-2xl font-bold mb-2">2026 台灣 AI 就業數據包</h3>
               <p className="text-[#86868b] mb-4">Lifetime Access • 即時更新至 v3.0</p>
@@ -341,7 +341,7 @@ const PaymentModal = ({ isOpen, onClose }) => {
       
       {/* Modal */}
       <div 
-        className="relative bg-[#1d1d1f] border border-[#424245] rounded-3xl p-8 md:p-10 max-w-md w-full shadow-2xl"
+        className="relative bg-[#1d1d1f] border border-[#424245] rounded-3xl p-6 md:p-8 md:p-10 max-w-md w-full shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -441,7 +441,7 @@ const CloudIcon = ({ className }) => (
 
 // 輔助組件：路線圖卡片
 const RoadmapCard = ({ title, path, skills, app, highlight = false }) => (
-  <div className={`rounded-3xl p-8 border transition-all ${highlight ? 'bg-[#1d1d1f] border-[#2997ff]/50 shadow-[0_0_30px_rgba(41,151,255,0.1)]' : 'bg-[#1d1d1f] border-[#424245] hover:border-[#86868b]'}`}>
+  <div className={`rounded-3xl p-6 md:p-8 border transition-all ${highlight ? 'bg-[#1d1d1f] border-[#2997ff]/50 shadow-[0_0_30px_rgba(41,151,255,0.1)]' : 'bg-[#1d1d1f] border-[#424245] hover:border-[#86868b]'}`}>
     {highlight && <div className="text-[#2997ff] text-xs font-bold tracking-wider mb-4 uppercase">市場最高需求</div>}
     <h3 className="text-xl font-bold text-[#f5f5f7] mb-4">{title}</h3>
     <div className="space-y-4 text-sm">
